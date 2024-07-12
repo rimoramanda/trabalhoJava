@@ -1,5 +1,8 @@
 package com.amanda.people.dto.request;
 
+import lombok.Getter;
+
+@Getter
 public class PersonRequestDTO {
 
 
