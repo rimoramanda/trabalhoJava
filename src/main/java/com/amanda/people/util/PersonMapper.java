@@ -3,12 +3,15 @@ package com.amanda.people.util;
 import com.amanda.people.dto.request.PersonRequestDTO;
 import com.amanda.people.dto.response.PersonResponseDTO;
 import com.amanda.people.entity.Person;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
+@Component
 
 public class PersonMapper {
+
     public Person toPerson(PersonRequestDTO personDTO){
 
         //converter um dto em uma person(entidade)
